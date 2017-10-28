@@ -1,0 +1,54 @@
+{
+  "name": "tictactoe-ui",
+  "version": "1.0.0",
+  "description": "A sample tictactoe game",
+  "repository": "sudo://github.com/vytautas-mackonis/tictactoe-ui",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "tslib": "^1.8.0"
+  },
+  "devDependencies": {
+    "@types/react": "^16.0.18",
+    "@types/react-dom": "^16.0.2",
+    "ava": "^0.23.0",
+    "browserify": "^14.5.0",
+    "browserify-shim": "^3.8.14",
+    "chalk": "^2.3.0",
+    "del": "^3.0.0",
+    "execa": "^0.8.0",
+    "exorcist": "^1.0.0",
+    "gulp": "github:gulpjs/gulp#4.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.1",
+    "gulp-typescript": "^3.2.3",
+    "gulp-uglify": "^3.0.0",
+    "http-server": "^0.10.0",
+    "tsify": "^3.0.3",
+    "typescript": "^2.5.3",
+    "uglify-js": "^3.1.5",
+    "uglifyify": "^4.0.4",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.9.0"
+  },
+  "browserify": {
+    "transform": [
+      "browserify-shim"
+    ]
+  },
+  "browserify-shim": {
+    "react": {
+      "exports": "global:React"
+    },
+    "react-dom": {
+      "exports": "global:ReactDOM"
+    }
+  }
+}

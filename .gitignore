@@ -1,0 +1,4 @@
+dist/*
+test_dist/*
+node_modules/*
+*.swp
